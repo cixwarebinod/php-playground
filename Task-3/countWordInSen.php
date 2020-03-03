@@ -5,7 +5,7 @@ $count=count($strarr);
 for ($i=0;$i<$count;$i++)
 {
     echo "The length of $i st string:";
-    echo strlen($strarr[$i]);
+    echo str_word_count($strarr[$i]);
     echo "<br>";
 }
 ?>
